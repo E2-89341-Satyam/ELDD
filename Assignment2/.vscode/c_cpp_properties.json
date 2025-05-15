@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-6.11.0-25-generic/include/generated",
+                "/usr/src/linux-headers-6.11.0-25-generic/arch/x86/include/generated",
+                "/usr/src/linux-headers-6.11.0-25-generic/include",
+                "/usr/src/linux-headers-6.11.0-25-generic/arch/x86/include",
+                "/usr/lib/gcc-11/x86_64-linux-gnu/*/include",
+                "/usr/include"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE",
+                "__GNUC__"
+            ],
+            "compilerPath": "/usr/bin/gcc-11",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+            //"compileCommands": "${workspaceFolder}/hellomod/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
+

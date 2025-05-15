@@ -1,0 +1,1 @@
+savedcmd_/home/satyam/ELDD_Assignments/Assignment1/pcdd-3/pchar.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/satyam/ELDD_Assignments/Assignment1/pcdd-3/pchar.ko /home/satyam/ELDD_Assignments/Assignment1/pcdd-3/pchar.o /home/satyam/ELDD_Assignments/Assignment1/pcdd-3/pchar.mod.o
